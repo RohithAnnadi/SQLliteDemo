@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter id"/>
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter name"/>
+    <EditText
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter hobby"/>
+    <EditText
+        android:id="@+id/userAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter age"/>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="334dp" />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="334dp" />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="334dp" />
+    <Button
+        android:id="@+id/fetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ListView
+        android:id="@+id/userList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
